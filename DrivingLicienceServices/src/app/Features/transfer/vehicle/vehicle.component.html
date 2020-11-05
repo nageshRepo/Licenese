@@ -1,0 +1,94 @@
+<div class="transferdetails">
+  <div class="container-fluid">
+    <div style="padding:10px 0px;color: darkseagreen;font-size: 18px;"> Vehicle details</div>
+    <form style="padding: 20px;">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Model: </div>
+              <div class="col-9">
+                <input type="text" class="form-control"  id="name" name="name" [(ngModel)]="vehicleDetails.model" >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Register number: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="faatherName"  name="faatherName" [(ngModel)]="vehicleDetails.registerNumber" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Register date: </div>
+              <div class="col-9">
+                <input type="date" class="form-control"  id="name" name="name" [(ngModel)]="vehicleDetails.registerDate" >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Chassis number: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="chassisNumber"  name="chassisNumber" [(ngModel)]="vehicleDetails.chassisNumber" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Engine no: </div>
+              <div class="col-9">
+                <input type="text" class="form-control"  id="engineNo" name="engineNo" [(ngModel)]="vehicleDetails.engineNo" >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> MFR(Manufacturer): </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="mfr"  name="mfr" [(ngModel)]="vehicleDetails.mfr" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> MFG date: </div>
+              <div class="col-9">
+                <input type="date" class="form-control"  id="mfgDate" name="mfgDate" [(ngModel)]="vehicleDetails.mfgDate" >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Sold date: </div>
+              <div class="col-9">
+                <input type="date" class="form-control" id="soldDate"  name="soldDate" [(ngModel)]="vehicleDetails.soldDate" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>

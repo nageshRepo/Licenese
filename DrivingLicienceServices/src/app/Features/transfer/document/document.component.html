@@ -1,0 +1,79 @@
+<div class="document">
+  <div class="container-fluid">
+    <div style="padding:10px 0px;color: darkseagreen;font-size: 18px;"> Upload documents</div>
+    <form style="padding: 20px;">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Registration Certificate: </div>
+              <div class="col-9">
+                  <input type="file" class="custom-file-input" id="inputGroupFile01" class="form-control" name="regCertificate" [(ngModel)]="regCertificate">
+                  <label class="custom-file-label" for="inputGroupFile01">{{regCertificate}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Insurance Certificate: </div>
+              <div class="col-9">
+                <input type="file" class="custom-file-input" id="inputGroupFile02" class="form-control" name="aadhharFrony" [(ngModel)]="insuranceCertficate">
+                <label class="custom-file-label" for="inputGroupFile02">{{insuranceCertficate}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Valid Emission Certificate: </div> 
+              <div class="col-9">
+                <input type="file" class="custom-file-input" id="inputGroupFile03" class="form-control" name="emmissionCertificate" [(ngModel)]="emmissionCertificate" >
+                <label class="custom-file-label" for="inputGroupFile03">{{emmissionCertificate}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> No objection certificatee: </div> 
+              <div class="col-9">
+                <input type="file" class="custom-file-input" id="inputGroupFile04" class="form-control" name="aadhharFrony" [(ngModel)]="noObjection" >
+                <label class="custom-file-label" for="inputGroupFile04">{{noObjection}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Transferor aadhar card: </div> 
+              <div class="col-9">
+                <input type="file" class="custom-file-input" id="inputGroupFile05" class="form-control" name="aadhharFrony" [(ngModel)]="transferorAadhar" >
+                <label class="custom-file-label" for="inputGroupFile05">{{transferorAadhar}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Transferee aadhar card: </div> 
+              <div class="col-9">
+                <input type="file" class="custom-file-input" id="inputGroupFile06" class="form-control" name="aadhharFrony" [(ngModel)]="transfereeAadhar" >
+                <label class="custom-file-label" for="inputGroupFile06">{{transfereeAadhar}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

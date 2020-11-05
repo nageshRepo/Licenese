@@ -1,0 +1,21 @@
+<div class="container-fluid" style="background-color: aliceblue;">
+  <div style="padding: 20px;color: darkseagreen;font-size: 20px;text-align: center;">
+    Application for RC transfer
+  </div>
+  <div>
+    <app-transferor [headerDetails]="transferorHeader" [transfrorDetails] = "transferDetails.transferorDetails"></app-transferor>
+  </div>
+  <div>
+    <app-vehicle [vehicleDetails]="transferDetails.vehicleDetails"></app-vehicle>
+  </div>
+  <div>
+    <app-transferor [headerDetails]="transfereeHeader" [transfrorDetails] = "transferDetails.transfereeDetails"></app-transferor>
+  </div>
+  <div>
+    <app-document></app-document>
+  </div>
+   <div>
+    <button type="button" class="btn btn-primary" (click)="sublitApplication()"
+      style="text-align: center;">Submit</button>
+  </div>
+</div>

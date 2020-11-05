@@ -1,0 +1,32 @@
+<div class="applylicense">
+  <div class="container-fluid" style="background-color: aliceblue;">
+    <div style="padding: 20px;color: darkseagreen;font-size: 20px;text-align: center;">
+      Application for Driving license
+    </div>
+    <div>
+      <app-rto-details [rtoDetails]="applyLicenseDetails.rtoDetails"></app-rto-details>
+    </div>
+    <div>
+      <app-person-details [persionDetails]="applyLicenseDetails.personDetails"></app-person-details>
+    </div>
+    <div>
+      <app-address [addressDetails]="applyLicenseDetails.addressDetails"></app-address>
+    </div>
+    <div>
+      <app-document-details></app-document-details>
+    </div>
+    <div>
+      <button type="button" class="btn btn-primary" (click)="sublitApplication()"
+        style="text-align: center;">Submit</button>
+    </div>
+  </div>
+  
+  <div class="toast" #toast>
+    <div class="toast-header">
+      Toast Header
+    </div>
+    <div class="toast-body">
+      Some text inside the toast body
+    </div>
+  </div>
+</div>

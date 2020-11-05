@@ -1,0 +1,15 @@
+<div class="container-fluid" style="background-color: aliceblue;">
+  <div style="padding: 20px;color: darkseagreen;font-size: 20px;text-align: center;">
+    Application for renew Driving license
+  </div>
+  <div>
+    <app-dl-details [dlDetailsList]="renewDetails"></app-dl-details>
+  </div>
+  <div>
+    <app-address [addressDetails]="renewDetails.addressList"></app-address>
+  </div>
+  <div>
+    <button type="button" class="btn btn-primary" (click)="sublitApplication()"
+      style="text-align: center;">Submit</button>
+  </div>
+</div>

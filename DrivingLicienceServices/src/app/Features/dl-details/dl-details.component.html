@@ -1,0 +1,106 @@
+<div class="dldetails">
+  <div class="container-fluid">
+    <div style="padding:10px 0px;color: darkseagreen;font-size: 18px;"> License details</div>
+    <form style="padding: 20px;">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Name: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="name" name="name" [(ngModel)]="dlDetailsList.name">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Father name: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="faatherName" name="faatherName"
+                  [(ngModel)]="dlDetailsList.fateherName">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3">License number: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="dlNumner" name="dlNumner"
+                  [(ngModel)]="dlDetailsList.licenseNumber">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Date of issue: </div>
+              <div class="col-9">
+                <input type="date" id="expiryDate" class="form-control" name="expiryDate"
+                  [(ngModel)]="dlDetailsList.dateOfIssue">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Expiry Date: </div>
+              <div class="col-9">
+                <input type="date" id="expiryDate" class="form-control" name="expiryDate"
+                  [(ngModel)]="dlDetailsList.exipryDate">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Licensing Authority: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="name" name="name" [(ngModel)]="dlDetailsList.licenseAuthority">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Class of vehicle authorised: </div>
+              <div class="col-9">
+                <select name="cars" id="cars" class="form-control" name="some" [(ngModel)]="dlDetailsList.classOfVehicle">
+                  <option>Select type</option>
+                  <option value="MCWG">MCWG</option>
+                  <option value="HGMV">HGMV</option>
+                  <option value="HPMV">HPMV</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Upload Driving License:      </div>
+              <div class="col-9">
+               <input type="file" class="custom-file-input" id="inputGroupFile046" class="form-control" name="dlPhoto"
+                  [(ngModel)]="dlPhoto">
+                <label class="custom-file-label" for="inputGroupFile046">{{dlPhoto}}</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

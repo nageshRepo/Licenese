@@ -1,0 +1,22 @@
+/* .loginForm{
+    height: 100vh;
+    width: 50vw;
+} */
+
+.justify-content-center {
+    /* background: cadetblue; */
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.formcenter{
+    width: 30vw;
+    padding: 60px;
+    background: cadetblue;
+}
+
+
+.loginButton{
+    width: 100%;
+}

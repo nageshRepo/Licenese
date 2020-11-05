@@ -1,0 +1,61 @@
+<div class="rtodetails">
+  <div class="container-fluid">
+    <div style="padding:10px 0px;color: darkseagreen;font-size: 18px;"> RTO details</div>
+    <form style="padding: 20px;">
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Select state: </div>
+              <div class="col-9">
+                <select name="cars" id="cars" class="form-control" name="state" [(ngModel)]="rtoDetails.state">
+                  <option>Select state</option>
+                  <option value="Karnataka">Karnataka</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> Seltct type: </div>
+              <div class="col-9">
+                <select name="cars" id="cars" class="form-control" name="some" [(ngModel)]="rtoDetails.type">
+                  <option>Select type</option>
+                  <option value="MCWG">MCWG</option>
+                  <option value="HGMV">HGMV</option>
+                  <option value="HPMV">HPMV</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3"> RTO Office: </div>
+              <div class="col-9">
+                <input type="text" class="form-control" id="office" name="office"
+                  [(ngModel)]="rtoDetails.office">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <div class="row">
+              <div class="col-3">PIN: </div>
+              <div class="col-9">
+                <input type="number" class="form-control" id="pin" name="pin"
+                  [(ngModel)]="rtoDetails.pin">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
